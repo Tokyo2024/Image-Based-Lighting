@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IBLRendering">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{98378b5d-07b5-4d77-90be-3740fa7d44ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IBLRendering.cpp">
+      <Filter>IBLRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>IBLRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="IBLTechnique.cpp">
+      <Filter>IBLRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FBO.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="IBLTechnique.h">
+      <Filter>IBLRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="IBLRendering.h">
+      <Filter>IBLRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>IBLRendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\background_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\background_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\cubemap_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\equirectangular_to_cubemap_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\irradiance_convolution_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\DrawScreenQuad_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\DrawScreenQuad_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\brdf_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\brdf_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\prefilter_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pbr_integrated_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pbr_integrated_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ssao_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ssao_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ssaoBlur_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ssaoGeometry_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\ssaoGeometry_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pbr_model_integrated_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pbr_model_integrated_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

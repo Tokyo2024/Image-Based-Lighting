@@ -1,0 +1,24 @@
+# Blender MTL File: 'chairs.blend'
+# Material Count: 2
+
+newmtl leatherChair_leather
+Ns 96.078431
+Ka 1.000000 0.000000 1.000000  
+Kd 0.158455 0.064176 0.020993  
+Ks 0.0 1.0 1.0 
+Ke 0.000000 0.000000 0.000000  
+Ni 1.000000
+d 1.000000
+map_Kd base_leather.jpg
+illum 2
+
+newmtl leatherChair_metal
+Ns 6.078431
+Ka 0.705882 0.705882 0.705882
+Kd 0.81785 0.81785 0.81785  
+Ks 0.5 0.1 1.0 
+Ke 0.000000 0.000000 0.000000  
+Ni 1.000000
+d 1.000000
+map_Kd base_bareMetal.png
+illum 2
