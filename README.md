@@ -1,1 +1,1 @@
-The project of IBL is developmented by C++ and OpenGL, you should Open it with visual studio 2015
+The projection of IBL is developmented by C++ and OpenGL, you should Open it with visual studio 2015
